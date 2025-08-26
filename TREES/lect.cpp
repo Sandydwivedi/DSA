@@ -41,6 +41,7 @@ void preorder(node* root) {
     cout << root->data << " ";
     preorder(root->left);
     preorder(root->right);
+    
 }
 
 int main() {
