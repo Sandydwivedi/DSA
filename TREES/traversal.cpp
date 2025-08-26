@@ -71,7 +71,5 @@ node* root = buildtree();
 
     cout << "\npostorder Traversal: ";
     postorder(root);
-
-    
     return 0;
 }
